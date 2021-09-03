@@ -3,7 +3,7 @@ const int partic = 128;
 #include <iostream>
 #include <string>
 #include <vector>
-
+//khai báo biến tại đây  
 int ptcp = 0;
 std::vector<int>order;
 std::string name[partic];
