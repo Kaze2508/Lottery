@@ -26,7 +26,7 @@ void input()
 		std::cin >> ptcp;
 		if (ptcp > partic) std::cout << "Hay nhap lai! So nguoi tham gia khong duoc vuot qua 128\n";
 	} while (ptcp > partic);
-	for (int i = 0; i < ptcp; i++) std::cin >> name[i];
+	for (int i = 0; i < ptcp; i++) getline(std::cin, name[i]);
 }
 
 void process()
